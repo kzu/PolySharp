@@ -70,10 +70,7 @@
 
   <PropertyGroup>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_RUN_ID)' != ''">true</ContinuousIntegrationBuild>
-    <RepositoryUrl>https://github.com/Sergio0694/PolySharp/</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <ProjectUrl>https://github.com/Sergio0694/PolySharp/</ProjectUrl>
+    <PackageProjectUrl>https://github.com/Sergio0694/PolySharp/</PackageProjectUrl>
     <Authors>Sergio Pedri</Authors>
     <Owners>Sergio Pedri</Owners>
     <Company>Sergio Pedri</Company>
